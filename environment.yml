@@ -1,0 +1,12 @@
+name: occ_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pythonocc-core=7.9.3
+  - pip
+  - pip:
+      - streamlit==1.56.0
+      - pymupdf==1.27.2.2
+      - matplotlib==3.10.8
